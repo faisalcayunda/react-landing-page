@@ -1,17 +1,22 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star , bukopin,
+  niaga,
+  bca,
+  bukakas,
+  cipaganti,
+  evermos,
+  hsbc,
+  kompas_gramedia,
+  panin_sekuritas,
+  permata } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Beranda",
   },
   {
-    id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
+    id: "profile",
+    title: "Profil",
   },
   {
     id: "clients",
@@ -23,23 +28,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Talenta Berkualitas",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Dengan lebih dari seribu karyawan yang terampil, kami menyediakan tenaga profesional untuk memajukan bisnis Anda.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Keamanan Data Terjamin",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      " Keamanan informasi Anda adalah prioritas kami, dengan sistem yang dirancang untuk melindungi data Anda.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Optimalisasi Biaya",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Kami mengerti pentingnya efisiensi biaya, dan kami berkomitmen untuk memberikan solusi yang tidak hanya efektif namun juga efisien.",
   },
 ];
 
@@ -47,10 +52,10 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+      "Bank multinasional dan grup layanan keuangan yang berkantor pusat di London, Inggris. Ini merupakan bank terbesar yang berbasis di Eropa berdasarkan total aset dan memiliki jejak multinasional dengan sejarah dan hubungan bisnis yang kuat dengan Asia Timur",
+    name: "HSBC Bandung dan Jakarta",
     title: "Founder & Leader",
-    img: people01,
+    img: hsbc,
   },
   {
     id: "feedback-2",
@@ -73,18 +78,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Karyawan",
+    value: "1200+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Client",
+    value: "25+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Provinsi",
+    value: "5+",
   },
 ];
 
@@ -180,18 +185,63 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: hsbc,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: bca,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: niaga,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: panin_sekuritas,
+  },
+  {
+    id: "client-5",
+    logo: permata,
+  },
+  {
+    id: "client-6",
+    logo: kompas_gramedia,
+  },
+  {
+    id: "client-7",
+    logo: evermos,
+  },
+  {
+    id: "client-8",
+    logo: bukakas,
+  },
+  {
+    id: "client-9",
+    logo: cipaganti,
   },
 ];
+
+
+export const companyDetails = {
+  'PT Sapta Sinergi Sourcindo': {
+    address: 'Jl Nursijan No 24, Lengkong Bandung',
+    phone: '022 – 4210343',
+    mobile: '0818 1874 5770',
+    email: 'dediardiansyah@saptasinergi.co.id',
+    npwp: '02.241.528.5-423.000',
+    nib: '2810220055689',
+    legal: 'AHU-AH.01.03-0307030',
+    act: 'No Akta: 05'
+  },
+  'PT Sapta Sinergi Berkarya': {
+    address: 'Rasuna Office Park Unit Dom 13, HR Rasuna Said, Setiabudi Jakarta Selatan',
+    phone: '022 – 4210343',
+    mobile: '0818 1874 5770',
+    email: 'dediardiansyah@saptasinergi.co.id',
+    npwp: '50.297.211.0-0422.000',
+    nib: '1409230056514',
+    legal: 'AHU-0067401.AH.01.01 Tahun 2023',
+    act: 'No Akta: 01'
+  }
+};
+

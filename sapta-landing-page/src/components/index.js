@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
+import Biograph from "./Biograph";
 
 export {
     Billing,
@@ -26,4 +27,5 @@ export {
     Navbar,
     Stats,
     Testimonials,
+    Biograph
 }; 
